@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background:  #266041;
+    color: #fff;
+    padding: 30px 0;
+    border-bottom:  #266041 3px solid;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#faqs {
+    padding: 30px;
+    background: #fff;
+    color: #333;
+}
+
+#faqs h2 {
+    color:  #266041;
+}
+
+#faqs p {
+    font-size: 16px;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.faq-category {
+    margin-bottom: 20px;
+}
+
+.faq-category h3 {
+    color: #b35050;
+    margin-bottom: 10px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.accordion {
+    background: #50b3a2;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    text-align: left;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.panel {
+    padding: 0 15px;
+    display: none;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+
+.panel p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.faq-contact {
+    margin-top: 20px;
+}
+
+.faq-contact a {
+    color: #50b3a2;
+    text-decoration: none;
+}

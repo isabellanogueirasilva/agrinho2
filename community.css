@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ff0000;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background:  #266041;
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: #3e8e7e 3px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-height: 50px;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#community {
+    padding: 30px;
+    background: #fff;
+    color: #333;
+}
+
+#community h2 {
+    color:  #266041;
+}
+
+.community-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.community-content div {
+    flex: 1;
+    min-width: 200px;
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.community-content a {
+    color:  #266041;
+    text-decoration: none;
+}
+
+.community-content a:hover {
+    text-decoration: underline;
+}
+
+.rules, .contact {
+    margin-top: 30px;
+}
+
+.rules h3, .contact h3 {
+    color:  #266041;
+}
+
+.rules a, .contact a {
+    display: block;
+    margin-top: 5px;
+    color:  #266041;
+    text-decoration: none;
+}
+
+.rules a:hover, .contact a:hover {
+    text-decoration: underline;
+}
