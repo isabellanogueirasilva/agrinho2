@@ -22,13 +22,7 @@ header {
 }
 
 header .logo img {
-    max-height: 50px;body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 0;
-        padding: 0;
-        background-color: #ff0000;
-    }
+    max-height: 50px;}
     
     .container {
         width: 80%;
