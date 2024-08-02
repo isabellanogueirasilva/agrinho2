@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 80 %;
     margin: auto;
     overflow: hidden;
 }
@@ -14,15 +14,32 @@ body {
 header {
     background:  #266041;
     color: #fff;
-    padding: 20px 0;
-    border-bottom: #3e8e7e 3px solid;
+    padding: 20 px 0;
+    border-bottom: #3e8e7e 3 px solid;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header .logo img {
-    max-height: 50px;
+    max-height: 50px;body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #ff0000;
+    }
+    
+    .container {
+        width: 80%;
+    …    color:  #266041;
+        text-decoration: none;
+    }
+    
+    .rules a:hover, .contact a:hover {
+        text-decoration: underline;
+    }
+    
 }
 
 header nav ul {
@@ -86,7 +103,7 @@ header nav a {
 
 .rules a, .contact a {
     display: block;
-    margin-top: 5px;
+    margin-top: 5 px;
     color:  #266041;
     text-decoration: none;
 }
